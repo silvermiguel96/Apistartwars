@@ -1,0 +1,24 @@
+{
+  "name": "apistart",
+  "version": "1.0.0",
+  "description": "Es una api para conectar personas de starwars y mostrarlos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvermiguel96/Apistartwars.git"
+  },
+  "author": "Miguelangel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvermiguel96/Apistartwars/issues"
+  },
+  "homepage": "https://github.com/silvermiguel96/Apistartwars#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.9"
+  }
+}
